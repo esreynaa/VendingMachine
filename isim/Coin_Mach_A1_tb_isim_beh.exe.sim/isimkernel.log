@@ -1,0 +1,29 @@
+Command line:
+   Coin_Mach_A1_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51725
+
+Fri Jul 29 15:17:07 2016
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 840.63 Meg
+
+ Total Signals          : 20
+ Total Nets             : 22
+ Total Signal Drivers   : 12
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 19
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 132
+Total Line Count : 110
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 840.63 Meg
+
+Fri Jul 29 15:17:16 2016
+
