@@ -1,0 +1,12 @@
+
+// 27 MHz Clock
+Net "CLK" Loc = "V10";
+
+// output pins LEDs
+Net"Disp_W" Loc = "C4"; // Dispense with balance pin
+Net"Disp_Wo" Loc = "A4"; // Dispense without balance pin
+
+// input pins
+Net"coin_5" Loc = "P4"; // nickel
+Net"coin_10" Loc = "F6"; // dime
+Net"coin_25" Loc = "E4"; // quarter

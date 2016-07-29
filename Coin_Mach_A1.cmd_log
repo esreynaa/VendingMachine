@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.xst" -ofn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.xst" -ofn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.xst" -ofn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.syr" 
+xst -intstyle ise -ifn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.xst" -ofn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Coin_Mach_A1.ngc Coin_Mach_A1_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Coin_Mach_A1_const.ucf -p xc6slx16-csg324-2 Coin_Mach_A1.ngc Coin_Mach_A1.ngd  
+xst -intstyle ise -ifn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.xst" -ofn "C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Coin_Mach_A1_const.ucf -p xc6slx16-csg324-2 Coin_Mach_A1.ngc Coin_Mach_A1.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Coin_Mach_A1_map.ncd Coin_Mach_A1.ngd Coin_Mach_A1.pcf 
+par -w -intstyle ise -ol high -mt off Coin_Mach_A1_map.ncd Coin_Mach_A1.ncd Coin_Mach_A1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Coin_Mach_A1.twx Coin_Mach_A1.ncd -o Coin_Mach_A1.twr Coin_Mach_A1.pcf -ucf Coin_Mach_A1_const.ucf 
+bitgen -intstyle ise -f Coin_Mach_A1.ut Coin_Mach_A1.ncd 

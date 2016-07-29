@@ -1,0 +1,39 @@
+Release 13.3 ngdbuild O.76xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+C:\Xilinx\13.3\ISE_DS_with_new_drivers\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc Coin_Mach_A1_const.ucf -p
+xc6slx16-csg324-2 Coin_Mach_A1.ngc Coin_Mach_A1.ngd
+
+Reading NGO file
+"C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Probl
+em_A/Coin_machine_A/Coin_Mach_A1.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Coin_Mach_A1_const.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 150852 kilobytes
+
+Writing NGD file "Coin_Mach_A1.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "Coin_Mach_A1.bld"...

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Ed/Documents/UTSA/UTSA_classes_Summer_2016/homework/Assignment_4/Problem_A/Coin_machine_A/Coin_Mach_A1_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Coin_Mach_A1_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/Coin_Mach_A1_tb/Disp_W" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Disp_W</obj_property>
+      <obj_property name="ObjectShortName">Disp_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/Disp_Wo" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Disp_Wo</obj_property>
+      <obj_property name="ObjectShortName">Disp_Wo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/balance" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">balance[5:0]</obj_property>
+      <obj_property name="ObjectShortName">balance[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/dep_val" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dep_val[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dep_val[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/dep" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dep[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dep[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/coin_5" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">coin_5</obj_property>
+      <obj_property name="ObjectShortName">coin_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/coin_10" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">coin_10</obj_property>
+      <obj_property name="ObjectShortName">coin_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/coin_25" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">coin_25</obj_property>
+      <obj_property name="ObjectShortName">coin_25</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/Nstate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Nstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Nstate[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/slow_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">slow_clk</obj_property>
+      <obj_property name="ObjectShortName">slow_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Coin_Mach_A1_tb/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+</wave_config>

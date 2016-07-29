@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Ed\Documents\UTSA\UTSA_classes_Summer_2016\homework\Assignment_4\Problem_A\Coin_machine_A\Coin_Mach_A1.ncd
+OUTFILE=C:\Users\Ed\Documents\UTSA\UTSA_classes_Summer_2016\homework\Assignment_4\Problem_A\Coin_machine_A\Coin_Mach_A1.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\Ed\Documents\UTSA\UTSA_classes_Summer_2016\homework\Assignment_4\Problem_A\Coin_machine_A
+LICENSE=WebPack
+USER_INFO=211092039_0_0_554

@@ -1,0 +1,8 @@
+Release 13.3 Drc O.76xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Fri Jul 29 15:28:35 2016
+
+drc -z Coin_Mach_A1.ncd Coin_Mach_A1.pcf
+
+DRC detected 0 errors and 0 warnings.
